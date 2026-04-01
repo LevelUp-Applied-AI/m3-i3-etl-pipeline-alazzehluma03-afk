@@ -1,0 +1,13 @@
+{
+    "etl_timestamp": "2026-04-01T15:05:59.347493",
+    "total_records_checked": 100,
+    "validation_results": {
+        "No Nulls": true,
+        "Revenue > 0": true,
+        "Unique IDs": true
+    },
+    "outlier_summary": {
+        "count": 0,
+        "details": []
+    }
+}

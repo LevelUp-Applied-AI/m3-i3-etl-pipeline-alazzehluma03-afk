@@ -1,0 +1,10 @@
+2026-04-01 15:05:59,514 - INFO - [ETL_Framework] - 🚀 Starting Tier 3 Framework Pipeline
+2026-04-01 15:05:59,515 - INFO - [ETL_Framework] - Stage 1: Extracting data from PostgreSQL
+2026-04-01 15:05:59,576 - INFO - [ETL_Framework] - Extracted 500 orders and 100 customers.
+2026-04-01 15:05:59,576 - INFO - [ETL_Framework] - Stage 2: Transforming data
+2026-04-01 15:05:59,583 - INFO - [ETL_Framework] - Transformation complete. Generated 100 rows.
+2026-04-01 15:05:59,584 - INFO - [ETL_Framework] - Stage 3: Validating data and generating JSON report
+2026-04-01 15:05:59,586 - INFO - [ETL_Framework] - Quality report saved to output\quality_report_tier3.json
+2026-04-01 15:05:59,587 - INFO - [ETL_Framework] - Stage 4: Loading data to table: customer_analytics_tier3
+2026-04-01 15:05:59,609 - INFO - [ETL_Framework] - Data successfully saved to CSV: output\customer_analytics_tier3.csv
+2026-04-01 15:05:59,610 - INFO - [ETL_Framework] - ✨ ETL Framework Run Successfully!

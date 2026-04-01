@@ -4,7 +4,7 @@
 ## Overview
 
 <!-- What does this pipeline do? -->
-
+This ETL pipeline is designed to process digital market data from Amman. It extracts raw information from a PostgreSQL database, applies business logic to calculate customer metrics, and ensures data quality before exporting the results for analysis.
 ## Setup
 
 1. Start PostgreSQL container:
@@ -31,11 +31,23 @@ python etl_pipeline.py
 ## Output
 
 <!-- What does customer_analytics.csv contain? -->
+The pipeline generates a specialized CSV report (customer_analytics.csv) and a database table containing:
 
+Customer Identity: Names and IDs of active customers.
+
+Sales Metrics: Total revenue and unique order counts.
+
+Behavioral Insights: Average order value and the customer's favorite product category.
 ## Quality Checks
 
 <!-- What validations are performed and why? -->
+To maintain high data standards, the following automated checks are performed:
 
+Null Value Prevention: Critical fields like customer_id must be populated.
+
+Financial Integrity: All recorded revenue must be greater than zero.
+
+Data Deduplication: Ensures that each customer has a unique entry in the final output.
 ---
 
 ## License

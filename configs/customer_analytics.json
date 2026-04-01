@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "customers": {
+      "query": "SELECT * FROM customers"
+    },
+    "products": {
+      "query": "SELECT * FROM products"
+    },
+    "orders": {
+      "query": "SELECT * FROM orders"
+    },
+    "order_items": {
+      "query": "SELECT * FROM order_items"
+    }
+  },
+  "filters": {
+    "status": "cancelled",
+    "quantity_max": 100
+  },
+  "incremental": true,
+  "validation_checks": {},
+  "target": {
+    "db_table": "customer_analytics",
+    "csv_path": "output/customer_analytics.csv"
+  }
+}
