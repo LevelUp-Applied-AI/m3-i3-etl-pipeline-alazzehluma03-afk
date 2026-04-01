@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-04-01T15:05:59.586175",
+    "total_records": 100,
+    "checks": {
+        "No_Nulls": true,
+        "Revenue_Positive": true,
+        "Unique_IDs": true
+    },
+    "outliers_found": 0,
+    "flagged_outliers": []
+}

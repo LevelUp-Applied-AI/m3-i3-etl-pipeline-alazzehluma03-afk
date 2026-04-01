@@ -1,0 +1,101 @@
+customer_id,total_orders,total_revenue,avg_order_value,is_outlier,top_category,customer_name
+1,9,1003.5,111.5,False,Electronics,Ahmad Al-Masri
+2,8,827.0,103.375,False,Sports,Fatima Al-Husseini
+3,6,751.5,125.25,False,Electronics,Omar Khalifeh
+4,6,730.0,121.66666666666667,False,Books,Layla Abdallah
+5,8,930.5,116.3125,False,Clothing,Khaled Nasser
+6,6,666.5,111.08333333333333,False,Books,Rania Al-Khatib
+7,6,721.5,120.25,False,Electronics,Yousef Haddad
+8,6,801.0,133.5,False,Books,Noor Al-Jabari
+9,7,806.5,115.21428571428571,False,Home & Garden,Tariq Obeidat
+10,6,750.0,125.0,False,Books,Hana Suleiman
+11,6,523.0,87.16666666666667,False,Clothing,Sami Al-Rawashdeh
+12,5,363.5,72.7,False,Clothing,Dina Qasem
+13,3,499.0,166.33333333333334,False,Clothing,Mazen Tawalbeh
+14,3,371.0,123.66666666666667,False,Electronics,Rana Abu-Ghazaleh
+15,2,228.0,114.0,False,Food & Beverage,Fadi Al-Zoubi
+16,5,526.5,105.3,False,Clothing,Mona Batayneh
+17,5,403.0,80.6,False,Clothing,Waleed Shraideh
+18,6,447.5,74.58333333333333,False,Clothing,Lina Al-Omari
+19,6,803.0,133.83333333333334,False,Electronics,Ibrahim Jaradat
+20,7,1100.0,157.14285714285714,False,Electronics,Samar Ababneh
+21,4,530.5,132.625,False,Electronics,Hassan Smadi
+22,7,974.5,139.21428571428572,False,Clothing,Yasmin Al-Sharif
+23,7,685.5,97.92857142857143,False,Electronics,Basil Malkawi
+24,7,660.5,94.35714285714286,False,Clothing,Reem Gharaibeh
+25,6,544.0,90.66666666666667,False,Books,Nidal Fraihat
+26,5,751.0,150.2,False,Electronics,Asma Qudah
+27,7,932.0,133.14285714285714,False,Books,Zaid Al-Momani
+28,6,719.5,119.91666666666667,False,Home & Garden,Jumana Tarawneh
+29,6,569.0,94.83333333333333,False,Books,Rashid Al-Ajlouni
+30,6,511.0,85.16666666666667,False,Electronics,Nisreen Bakri
+31,6,745.0,124.16666666666667,False,Books,Ayman Daradkeh
+32,6,910.0,151.66666666666666,False,Electronics,Ghada Nsour
+33,8,908.0,113.5,False,Home & Garden,Mahmoud Al-Azza
+34,7,569.5,81.35714285714286,False,Clothing,Suha Masarweh
+35,5,436.0,87.2,False,Books,Raed Habashneh
+36,4,423.0,105.75,False,Clothing,Abeer Al-Tamimi
+37,2,127.0,63.5,False,Home & Garden,Muhannad Awamleh
+38,4,579.5,144.875,False,Books,Sawsan Majali
+39,8,873.0,109.125,False,Electronics,Tamer Zu'bi
+40,6,676.0,112.66666666666667,False,Books,Huda Al-Karaki
+41,7,642.5,91.78571428571429,False,Books,Osama Louzi
+42,7,715.0,102.14285714285714,False,Clothing,Rula Shobaki
+43,7,1003.5,143.35714285714286,False,Books,Bilal Faouri
+44,7,603.0,86.14285714285714,False,Clothing,Maysoon Al-Qadi
+45,7,750.5,107.21428571428571,False,Clothing,Wael Bani-Hani
+46,6,671.0,111.83333333333333,False,Clothing,Shireen Khasawneh
+47,6,514.0,85.66666666666667,False,Electronics,Adnan Rousan
+48,6,630.5,105.08333333333333,False,Home & Garden,Lubna Al-Hawari
+49,6,699.0,116.5,False,Clothing,Firas Dmour
+50,7,789.5,112.78571428571429,False,Books,Eman Shdeifat
+51,7,609.0,87.0,False,Home & Garden,Suhail Qtaishat
+52,4,629.0,157.25,False,Electronics,Dalal Abu-Rumman
+53,6,713.0,118.83333333333333,False,Books,Hazem Maayta
+54,6,713.0,118.83333333333333,False,Clothing,Najwa Al-Bdour
+55,5,490.0,98.0,False,Clothing,Amjad Halasa
+56,3,145.5,48.5,False,Electronics,Siham Majdalawi
+57,5,499.5,99.9,False,Clothing,Rafiq Ghawanmeh
+58,4,525.5,131.375,False,Books,Iman Al-Masalmeh
+59,4,372.0,93.0,False,Home & Garden,Kamal Sarhan
+60,6,600.5,100.08333333333333,False,Books,Tahani Toubasi
+61,6,662.5,110.41666666666667,False,Home & Garden,Nasr Rabadi
+62,5,524.0,104.8,False,Clothing,Wafa Al-Harahsheh
+63,5,763.0,152.6,False,Electronics,Jalal Theibat
+64,3,202.0,67.33333333333333,False,Clothing,Kholoud Bani-Ata
+65,5,501.0,100.2,False,Clothing,Nayef Zu'mot
+66,3,314.0,104.66666666666667,False,Food & Beverage,Ahlam Bataineh
+67,3,308.0,102.66666666666667,False,Books,Ragheb Al-Dabbas
+68,3,408.0,136.0,False,Books,Fidaa Obaidat
+69,3,323.5,107.83333333333333,False,Clothing,Munther Bsoul
+70,2,169.0,84.5,False,Clothing,Haneen Khreisat
+71,1,73.0,73.0,False,Books,Saleem Tahat
+72,2,258.0,129.0,False,Books,Rawia Al-Fugaha
+73,2,140.5,70.25,False,Clothing,Imad Dmaiseh
+74,2,131.5,65.75,False,Books,Zeinab Shnikat
+75,3,279.0,93.0,False,Electronics,Amer Saraireh
+76,1,107.0,107.0,False,Books,Buthayna Quraan
+77,2,192.0,96.0,False,Clothing,Hamzeh Al-Btoush
+78,2,226.0,113.0,False,Home & Garden,Mayada Tal
+79,2,159.0,79.5,False,Home & Garden,Shaker Hijazeen
+80,2,316.0,158.0,False,Home & Garden,Lamis Rababah
+81,3,295.5,98.5,False,Clothing,Bashar Al-Adwan
+82,2,369.0,184.5,False,Books,Tamam Khreisha
+83,2,198.0,99.0,False,Electronics,Ismail Hmoud
+84,1,64.0,64.0,False,Clothing,Sabah Nsairat
+85,2,130.0,65.0,False,Home & Garden,Qais Al-Fayez
+86,2,122.5,61.25,False,Sports,Mais Qawasmeh
+87,1,51.0,51.0,False,Electronics,Baraa Otoum
+88,2,254.0,127.0,False,Books,Thuraya Al-Madi
+89,2,204.0,102.0,False,Clothing,Haitham Krishan
+90,2,260.0,130.0,False,Electronics,Nawal Fayyad
+91,1,165.0,165.0,False,Electronics,Mutaz Al-Shawabkeh
+92,2,264.0,132.0,False,Books,Rim Bani-Khaled
+93,2,140.5,70.25,False,Clothing,Saif Majeed
+94,2,160.0,80.0,False,Home & Garden,Arwa Hajjaj
+95,2,132.5,66.25,False,Electronics,Nasser Al-Dhoon
+96,2,444.0,222.0,False,Books,Duha Atiyat
+97,2,191.0,95.5,False,Clothing,Samer Jaber
+98,2,195.0,97.5,False,Home & Garden,Laith Al-Khalidi
+99,2,231.0,115.5,False,Clothing,Farah Hamaydeh
+100,1,81.0,81.0,False,Home & Garden,Yazan Bani-Mustafa

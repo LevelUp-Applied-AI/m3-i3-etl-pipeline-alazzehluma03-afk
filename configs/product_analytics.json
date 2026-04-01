@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "products": {
+      "query": "SELECT * FROM products"
+    },
+    "order_items": {
+      "query": "SELECT * FROM order_items"
+    },
+    "orders": {
+      "query": "SELECT * FROM orders"
+    }
+  },
+  "filters": {
+    "status": "cancelled",
+    "quantity_max": 100
+  },
+  "incremental": true,
+  "target": {
+    "db_table": "product_analytics",
+    "csv_path": "output/product_analytics.csv"
+  }
+}

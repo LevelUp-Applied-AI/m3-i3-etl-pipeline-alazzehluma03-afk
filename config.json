@@ -1,0 +1,7 @@
+{
+  "db_url": "postgresql://postgres:postgres@localhost:5432/amman_market",
+  "output_dir": "output",
+  "log_file": "output/pipeline.log",
+  "target_table": "customer_analytics_tier3",
+  "csv_filename": "customer_analytics_tier3.csv"
+}
